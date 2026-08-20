@@ -94,3 +94,5 @@ python renamer.py preview --folder "C:\\待交作业" --roster ".\\花名册.csv
 python renamer.py rename  --folder "C:\\待交作业" --roster ".\\花名册.csv" --project "AI大赛"
 python renamer.py undo    --folder "C:\\待交作业"
 ```
+
+本项目也进行了git管理，可直接拉取
