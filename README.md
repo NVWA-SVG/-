@@ -94,7 +94,3 @@ python renamer.py preview --folder "C:\\待交作业" --roster ".\\花名册.csv
 python renamer.py rename  --folder "C:\\待交作业" --roster ".\\花名册.csv" --project "AI大赛"
 python renamer.py undo    --folder "C:\\待交作业"
 ```
-
-## 为什么不使用 DeepSeek API
-
-“姓名→学号→项目”是精确的表格匹配，不需要大模型推理。使用 API 反而会带来姓名学号上传、调用费用和模型输出不确定等问题。DeepSeek API 可以留给后续需要理解文件内容、自动识别项目类型的工作流。
